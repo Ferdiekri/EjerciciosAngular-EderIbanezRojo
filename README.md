@@ -3,7 +3,7 @@
 ## Descripción del proyecto
     Este proyecto contiene todas las tareas realizadas a lo largo del tema de [AngularJS](https://angularjs.org/).
 
-![Foto del proyecto](http://url/to/img.png)
+  ![Foto del proyecto](https://github.com/Ferdiekri/EjerciciosAngular-EderIbanezRojo/blob/master/img/foto-proyecto.png)
 
 El proyecto se compone de las siguientes secciones
 ```
