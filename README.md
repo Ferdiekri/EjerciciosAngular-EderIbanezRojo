@@ -10,7 +10,7 @@ El proyecto se compone de las siguientes secciones
 Frutas, Componentes, Filter, Map & Reduce, Contratos, Promesas, Servicios, CRUD, Formulario, Pokémon, Ejercicios anteriores.
 ```
 
-    A lo largo de estas secciones, se han ido desarrollando las diferentes herramientas de  `AngularJS`.
+A lo largo de estas secciones, se han ido desarrollando las diferentes herramientas de  `AngularJS`.
 
 ### Pasos a seguir para clonar el proyecto en otro equipo:
 
