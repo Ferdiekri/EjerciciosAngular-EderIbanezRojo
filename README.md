@@ -1,7 +1,7 @@
 # EjerciciosAngularJS - Eder Ibáñez Rojo
 
 ## Descripción del proyecto
-    Este proyecto contiene todas las tareas realizadas a lo largo del tema de [AngularJS](https://angularjs.org/).
+Este proyecto contiene todas las tareas realizadas a lo largo del tema de [AngularJS](https://angularjs.org/).
 
   ![Foto del proyecto](https://github.com/Ferdiekri/EjerciciosAngular-EderIbanezRojo/blob/master/img/foto-proyecto.png)
 
