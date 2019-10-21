@@ -3,7 +3,7 @@
 ## Descripción del proyecto
   Este proyecto contiene todas las tareas realizadas a lo largo del tema de [AngularJS](https://angularjs.org/).
 
-  ![Foto del proyecto](http://url/to/img.png)
+  ![Foto del proyecto](https://github.com/Ferdiekri/EjerciciosAngular-EderIbanezRojo/blob/master/img/foto-proyecto.png)
 
 
 ### Pasos a seguir para clonar el proyecto en otro equipo:
