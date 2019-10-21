@@ -1,10 +1,16 @@
 # EjerciciosAngularJS - Eder Ibáñez Rojo
 
 ## Descripción del proyecto
-  Este proyecto contiene todas las tareas realizadas a lo largo del tema de [AngularJS](https://angularjs.org/).
+    Este proyecto contiene todas las tareas realizadas a lo largo del tema de [AngularJS](https://angularjs.org/).
 
-  ![Foto del proyecto](http://url/to/img.png)
+![Foto del proyecto](http://url/to/img.png)
 
+El proyecto se compone de las siguientes secciones
+```
+Frutas, Componentes, Filter, Map & Reduce, Contratos, Promesas, Servicios, CRUD, Formulario, Pokémon, Ejercicios anteriores.
+```
+
+    A lo largo de estas secciones, se han ido desarrollando las diferentes herramientas de  `AngularJS`.
 
 ### Pasos a seguir para clonar el proyecto en otro equipo:
 
