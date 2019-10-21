@@ -1,0 +1,28 @@
+<!-- componente-localizacion -->
+
+    <p>Localizamos la geolocalización del usuario mediante el plugin <a href="http://www.geoplugin.net" target="_blank">GeoPlugin</a>.</p>
+    <hr>
+
+        <!-- {{ localizacion }} -->
+
+        <div class="row">
+            <div class="col-6">
+                <ul>
+                    <li><strong>IP:</strong> {{ localizacion.geoplugin_request }}</li>
+                    <li><strong>Ciudad:</strong> {{ localizacion.geoplugin_city }}</li>
+                    <li><strong>Región:</strong> {{ localizacion.geoplugin_regionName }}</li>
+                    <li><strong>Latitud:</strong> {{ localizacion.geoplugin_latitude }}</li>
+                    <li><strong>Longitud:</strong> {{ localizacion.geoplugin_longitude }} </li>
+                    <li><strong>Moneda:</strong> {{ localizacion.geoplugin_currencySymbol }}</li>
+                </ul>
+            </div> <!-- col-6 -->
+
+            <div class="col-6">
+                <button ng-click="geolocalizar()">Mostrar Mapa</button><br>
+                <a target="_blank" href="https://developers-dot-devsite-v2-prod.appspot.com/maps/documentation/javascript/examples/marker-simple">Documentación Oficial</a>
+                <div id="map"></div>
+            </div> <!-- col-6 -->
+            
+        </div> <!-- row --> 
+
+<!-- /componente-localizacion -->

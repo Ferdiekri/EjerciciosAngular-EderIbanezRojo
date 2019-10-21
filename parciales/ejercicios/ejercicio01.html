@@ -1,0 +1,85 @@
+    
+    <h1>Ejercicio 01</h1>
+    <h2>{{ "Wellcome to the Hell - AngularJS" | uppercase }}</h2>
+    <div class="container">
+
+
+        <ul class="list-group">
+            <li class="list-group-item">
+
+                <h2>Filtros</h2>
+                <a href="https://docs.angularjs.org/api/ng/filter" target="_blank">Documentación</a>
+        
+                <ul class="list-group">
+                    <li class="list-group-item">
+                        <span class="badge badge-info">uppercase</span> {{ "Wellcome To The Hell - AngularJS" | uppercase }}
+                    </li>
+                    <li class="list-group-item">
+                        <span class="badge badge-info">lowercase</span> {{ "Wellcome To The Hell - AngularJS" | lowercase }}
+                    </li>
+                    <li class="list-group-item">
+                        <span class="badge badge-info">number</span> {{53214.58 | number:4 }}
+                    </li>
+                    <li class="list-group-item">
+                        <span class="badge badge-info">date</span> {{1570053600000 | date:'dd/MM/yyyy @ h:mma' }}
+                    </li>
+                    <li class="list-group-item">
+                        <span class="badge badge-info">currency</span> {{123.456 | currency:"€" }}
+                    </li>
+                </ul>
+
+            </li>
+
+            <li class="list-group-item list-group-item-secondary">
+                <h2>Directiva ng-model</h2>
+                <p>Nombre: {{ nombre | uppercase }}</p>
+                <input type="text" ng-model="nombre" class="form-control" placeholder="Inserta tu nombre.">
+
+                <p>Fecha: {{ fecha | date:'dd/MM/yyyy @ h:mma' }}</p>
+                <input type="date" ng-model="fecha" class="form-control" placeholder="Inserta tu nombre.">
+
+                <p>Elige tu país: {{ pais }}</p>
+                <select ng-model="pais">
+                    <option value="es">España</option>
+                    <option value="eu">Euskadi</option>
+                    <option value="eeuu">Estados Unidos</option>
+                </select>
+                
+                <p>¿Qué genero musical te gusta?: M: {{ g1 }} -- S:{{ g2 }} -- B:{{ g3 }} -- C:{{ g4 }}</p>
+                <input type="checkbox" ng-model="g1"> Música <br>
+                <input type="checkbox" ng-model="g2"> Surf <br>
+                <input type="checkbox" ng-model="g3"> Bromas <br>
+                <input type="checkbox" ng-model="g4"> Caidas <br>
+
+                <p>¿Cómo te identificas? {{ sexo }}</p>
+                <input type="radio" ng-model="H"> Hombre
+                <input type="radio" ng-model="M"> Mujer
+                <input type="radio" ng-model="?"> Indefinido
+
+
+            </li>
+
+            <li class="list-group-item"></li>
+            <li class="list-group-item list-group-item-secondary"></li>
+
+        </ul>
+
+        <hr>
+        
+        <h2>Angular 101</h2>
+        <hr>
+
+        <p>Nombre completo:</p>
+        <input type="text" ng-model="nombre" class="form-control" placeholder="Inserta tu nombre.">
+
+        <p>Lugar de trabajo lowercaseSalario</p>
+        <input type="text" ng-model="lugar" class="form-control" placeholder="Inserta tu lugar de trabajo.">
+
+        <p>Salario</p>
+        <input type="number" ng-model="salario" class="form-control" placeholder="Inserta tu salario.">
+
+        <p>Nombre: {{ nombre | uppercase }}</p>
+        <p>Lugar de trabajo:  {{ lugar | lowercase }}</p>
+        <p>Con un salario de: {{ salario | currency:"€" }}</p>
+       
+    </div> <!-- class="container" -->
